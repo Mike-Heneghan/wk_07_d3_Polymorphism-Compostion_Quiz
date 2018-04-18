@@ -3,7 +3,7 @@ Repository to hold the files for the Polymorphism &amp; Composition Homework Qui
 
 <h1>Polymorphism & Composition Homework - Quiz</h1>
 <h2>Polymorphism</h2>
-<hr/>
+
 <h3>What does the word 'polymorphism' mean?</h3>
 
 <p>The word polymorphism means that something can take on many forms or shapes.</p> 
@@ -25,15 +25,17 @@ Repository to hold the files for the Polymorphism &amp; Composition Homework Qui
 <p>Polymorphism could be used when there is a requirement for a collection of objects of different classes to be held in a data structure such as an ArrayList of HashMap.
 
 <h2>Composition</h2>
-<hr/>
+
 <h3>What do we mean by 'composition' in reference to object-oriented programming?</h3>
 
 <p>Composition is a methodology for design software programs in which objects are created with a HAS-A relationship to other objects. This moves away from the Inheritance priniciple which has the capacity to create issues as a program develops. Composition is a form of futureproofing and increases flexibility.
 
 <h3>When would you use composition? Provide a simple example in Java.</h3>
 
-Composition would be used on any 
+<p>Composition would be used in any project using a object oriented programming language.</p>
 
 <h3>What is/are the advantage(s) of using composition?</h3>
+
+<p>Composition helps to make code more robust and future proofs it by reducing hi level dependencies on lo level modules allowing changes to be made without "breaking" the code. This also lends itself to reusing code. </p>
 
 <h3>What happens to the behaviours when the object composed of them is destroyed?</h3>
