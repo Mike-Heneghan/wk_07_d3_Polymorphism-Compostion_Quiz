@@ -10,7 +10,7 @@ Repository to hold the files for the Polymorphism &amp; Composition Homework Qui
 
 <h3>What does it mean when we apply polymorphism to OO design? Give a simple Java example.</h3>
 
-<p>When we apply the concept of polymorphism to OO design in Java we can allow objects of different classes to be manipulated based on the enforced methods require from the implementation of an interface. For example, objects which are instances of classes with varying attributes and methods can be handled with regard to their simularity with the interface acting as a contract that they will have a funtion of a certain name with a set type of return. This increases the flexibility of the program and reduces rigiditiy and fragility.</p>
+<p>When we apply the concept of polymorphism to OO design in Java we can allow objects of different classes to be manipulated based on the enforced methods require from the implementation of an interface. For example, objects which are instances of classes with varying attributes and methods can be handled with regard to their simularity with the interface acting as a contract that they will have a funtion of a certain name with a set type of return. An object implementing an interface can be manipulated with the methods set by that interface but also "cast" into the class itself allowing methods specific to the object to be called. This increases the flexibility of the program and reduces rigiditiy and fragility.</p>
 
 <h3>What can we use to implement polymorphism in Java?</h3>
 
@@ -32,10 +32,12 @@ Repository to hold the files for the Polymorphism &amp; Composition Homework Qui
 
 <h3>When would you use composition? Provide a simple example in Java.</h3>
 
-<p>Composition would be used in any project using a object oriented programming language.</p>
+<p>Composition would be used in any project using a object oriented programming language. In Java if classes shared the same behaviours rather than trying to create a super class with the same methods and overloading with inheritance it would be more useful to create an interface and implement it in the appropriate classes. Therefore an object could have a HAS-A relationship with objects of many classes which implement the same interface.</p>
 
 <h3>What is/are the advantage(s) of using composition?</h3>
 
 <p>Composition helps to make code more robust and future proofs it by reducing hi level dependencies on lo level modules allowing changes to be made without "breaking" the code. This also lends itself to reusing code. </p>
 
 <h3>What happens to the behaviours when the object composed of them is destroyed?</h3>
+
+<p>When an object implementing an Interface is destroyed the interface itself is not changed and the objects calling methods on any other object which are implementing the interface are not affected.</p>
