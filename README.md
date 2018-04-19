@@ -14,7 +14,7 @@ Repository to hold the files for the Polymorphism &amp; Composition Homework Qui
 
 <h3>What can we use to implement polymorphism in Java?</h3>
 
-<p>We can use Interface in java to implement polymorphism in Java.</p>
+<p>We can use Interface in java to implement polymorphism in Java. Super classes can also be used for polymorphism as their child classes can be treated as the parent class or maniupulated handled as the child class.</p>
 
 <h3>How many 'forms' can an object take when using polymorphism?</h3>
 
@@ -28,7 +28,7 @@ Repository to hold the files for the Polymorphism &amp; Composition Homework Qui
 
 <h3>What do we mean by 'composition' in reference to object-oriented programming?</h3>
 
-<p>Composition is a methodology for design software programs in which objects are created with a HAS-A relationship to other objects. This moves away from the Inheritance priniciple which has the capacity to create issues as a program develops. Composition is a form of futureproofing and increases flexibility.
+<p>Composition is a methodology for design software programs in which objects are created with a HAS-A relationship to other objects. This moves away from the Inheritance priniciple which uses a IS-A relationship which has the capacity to create issues as a program develops. Composition is a form of futureproofing and increases flexibility.
 
 <h3>When would you use composition? Provide a simple example in Java.</h3>
 
@@ -36,7 +36,7 @@ Repository to hold the files for the Polymorphism &amp; Composition Homework Qui
 
 <h3>What is/are the advantage(s) of using composition?</h3>
 
-<p>Composition helps to make code more robust and future proofs it by reducing hi level dependencies on lo level modules allowing changes to be made without "breaking" the code. This also lends itself to reusing code. </p>
+<p>Composition helps to make code more robust and future proofs it by reducing hi level dependencies on lo level modules allowing changes to be made without "breaking" the code. This also lends itself to reusing code (Not necessarily true for compostion this is more dependency inversion using interfaces.)</p>
 
 <h3>What happens to the behaviours when the object composed of them is destroyed?</h3>
 
